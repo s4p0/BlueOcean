@@ -1,1 +1,2 @@
-& "$Env.MSBUILD_HOME\bin\msbuild.exe" build.msbuild
+$program = ${ENV:MSBUILD_HOME}.Replace("`"","") + "\bin\msbuild.exe"
+& "$program" build.msbuild
