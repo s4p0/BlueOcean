@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        powershell(script: 'test.ps1', returnStdout: true)
+        powershell(script: '.\\test.ps1', returnStdout: true)
       }
     }
   }
