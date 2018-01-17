@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOceanTester.UI", "BlueO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOceanTester.Lib", "BlueOceanTester.Lib\BlueOceanTester.Lib.csproj", "{6BE98ABB-1EDB-4261-88ED-A11DE7382673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOceanTester.UT", "BlueOceanTester.UT\BlueOceanTester.UT.csproj", "{43062415-F195-4FDC-9F91-527C64BC7E9A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE167F72-CC46-4D95-8BFA-769EAE40503E}"
+	ProjectSection(SolutionItems) = preProject
+		build.msbuild = build.msbuild
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueOceanTester.UT", "BlueOceanTester.UT\BlueOceanTester.UT.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +28,10 @@ Global
 		{6BE98ABB-1EDB-4261-88ED-A11DE7382673}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BE98ABB-1EDB-4261-88ED-A11DE7382673}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BE98ABB-1EDB-4261-88ED-A11DE7382673}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43062415-F195-4FDC-9F91-527C64BC7E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43062415-F195-4FDC-9F91-527C64BC7E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43062415-F195-4FDC-9F91-527C64BC7E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43062415-F195-4FDC-9F91-527C64BC7E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
