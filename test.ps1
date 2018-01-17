@@ -1,1 +1,2 @@
-mstest /testcontainer:BlueOceanTester.UT\bin\Debug\BlueOceanTester.UT.dll
+$program = ${ENV:NUNIT_HOME}.Replace("`"","") + "\nunit3-console.exe"
+& "$program" BuildArtifacts\BlueOceanTester.UT.dll
