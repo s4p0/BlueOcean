@@ -1,0 +1,1 @@
+mstest /testcontainer:BlueOceanTester.UT\bin\Debug\BlueOceanTester.UT.dll
